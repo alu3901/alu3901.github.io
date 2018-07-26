@@ -1,1 +1,83 @@
-Hola y tal
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Watch the world's currencies flow into BTC in realtime</title>
+<meta name="description" content="Monitoring the flow of fiat currencies like the US Dollar and the Chinese Yuan into the digital currency Bitcoin.  Data extracted from all major trading exchanges including Bitfinex, Coinbase, Luno, Mercado Bitcoin BR and Local Bitcoins.">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="screen.css" />
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1247876565371847",
+    enable_page_level_ads: true
+  });
+</script>
+</head>
+
+<body>
+<div id="content">
+
+	<p id="collecting"><img src="img/spin.gif" /> - <span id="langWaiting">waiting for first trade...</span></p>
+	<h2><a href="http://bitcoinfiatmap.com" style="color: green;">http://bitcoinfiatmap.com</a> - <span id="langTitle">watch the world's currencies flow into BTC in realtime</span></h2>
+
+	<p id="langSimpleAbout">Each trade results in a bitcoin being sent from the currency counter in <strong style="color: red;">red</strong> to the country on the map.  The value in BTC is listed in <strong style="color: green;">green</strong> and plotted across the map.  The last exchange rate for each currency is listed in <strong style="color: purple;">@purple</strong> and updated for each trade.</p>
+
+	<p>
+		<select id="selectLang"></select>
+		<input type="checkbox" id="hideAnimations" /> <span id="langHideAni">Hide animations?</span>
+		<input type="checkbox" id="playSound" checked /> <span id="langPlaySndOne">Play sound when rate is</span> <input type="text" size="1" value="20" id="sndUserLimit" /><span id="langPlaySndTwo">BTC per second or higher?</span>
+	</p>
+
+	<div id="mapcontainer"></div>
+
+	<p><span id="langDataFrom">Data from</span> <a href="https://pro.coinbase.com/">Coinbase</a>, <a href="https://www.bitfinex.com/">Bitfinex</a>, <a href="https://www.luno.com/">bitx.co.za</a>, <a href="http://www.mercadobitcoin.com.br/">Mercado Bitcoin BR</a>, <a href="https://localbitcoins.com/">Local Bitcoins</a></p>
+
+</div>
+<table width="1030px" align="center" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top" width="300px"> 
+<a href='https://www.coinbase.com/join/5a243ba53ae27502a7130b6f' style="color: orange;" target="_new"><strong>Buy Bitcoin Now And Get 10$ BTC Free</strong></a>
+<br>
+<div id="divstream"></div>
+<br><br>
+</td>
+<td valign="top" width="700px">
+	<table>
+    	<tr>
+			<td>
+			</td>
+     	</tr>
+  		<tr>
+        	<td>             
+			
+			</td>
+       	</tr>
+	</table>             
+</td>
+</tr>
+</table>
+<script src="js/jquery.min.js"></script>
+<script src="js/kinetic-v4.7.4.min.js"></script>
+<script src="js/worldMap.js"></script>
+<script src="js/main.js"></script>
+<script src="js/sunlight.js"></script>
+<script src="js/reconnecting-websocket.min.js"></script>
+<script src="js/mtgoxwebsocket.js"></script>
+<script src="js/socket.io.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40473878-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
